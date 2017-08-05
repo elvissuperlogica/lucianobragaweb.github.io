@@ -1,7 +1,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-toggleable-md bg-primary fixed-top navbar-transparent " color-on-scroll="500">
         <div class="container">
-            <div class="dropdown button-dropdown">
+            <!-- <div class="dropdown button-dropdown">
                 <a href="#pablo" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
                     <span class="button-bar"></span>
                     <span class="button-bar"></span>
@@ -17,49 +17,57 @@
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">One more separated link</a>
                 </div>
-            </div>
+            </div> -->
             <div class="navbar-translate">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
                     <span class="navbar-toggler-bar bar2"></span>
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
-                <a class="navbar-brand" href="/" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom">
+                <a class="navbar-brand" href="/" rel="tooltip" title="lucianobragaweb.com.br" data-placement="bottom">
                     Programador Web Luciano Braga
                 </a>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
                     {% for p in site.pages %}
+                        {% if page.menu != false %}
                         <li class="nav-item">
                             <a class="nav-link" href="{{ p.url }}">{{ p.title }}</a>
                         </li>
+                        {% endif %}
                     {% endfor %}
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
+                        <a class="nav-link" rel="tooltip" title="Siga no Twitter" data-placement="bottom" href="https://twitter.com/lucianobragaweb" target="_blank">
                             <i class="fa fa-twitter"></i>
                             <p class="hidden-lg-up">Twitter</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
+                        <a class="nav-link" rel="tooltip" title="Curta no Facebook" data-placement="bottom" href="https://www.facebook.com/sitelucianobragaweb" target="_blank">
                             <i class="fa fa-facebook-square"></i>
                             <p class="hidden-lg-up">Facebook</p>
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Siga no GitHub" data-placement="bottom" href="https://www.github.com/lucianobragaweb" target="_blank">
+                            <i class="fa fa-github"></i>
+                            <p class="hidden-lg-up">GitHub</p>
+                        </a>
+                    </li>
+                    <!-- <li class="nav-item">
                         <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
                             <i class="fa fa-instagram"></i>
                             <p class="hidden-lg-up">Instagram</p>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
     </nav>
     <!-- End Navbar -->
     <div class="page-header page-header-small" filter-color="orange">
-        <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/bg5.jpg');">
+        <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/bg18.jpg');">
         </div>
         <div class="container">
             <div class="content-center">
@@ -68,7 +76,7 @@
                 </div>
                 <h3 class="title">Luciano Braga</h3>
                 <p class="category">Programador Web</p>
-                <div class="content">
+                <!-- <div class="content">
                     <div class="social-description">
                         <h2>26</h2>
                         <p>Comments</p>
@@ -81,7 +89,7 @@
                         <h2>48</h2>
                         <p>Bookmarks</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
