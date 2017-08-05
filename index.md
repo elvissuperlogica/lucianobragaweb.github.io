@@ -9,3 +9,12 @@ menu: false
 
 <h3 class="title">Programador Web</h3>
 <h5 class="description">Em minha vida tento criar coisas novas, apostar em projetos pessoais e no futuro.</h5>
+
+<h3>Posts</h3>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
