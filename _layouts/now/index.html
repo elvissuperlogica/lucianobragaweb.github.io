@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    {% include head_scripts.html %}
+</head>
+
+<body class="profile-page">
+    {% include head.html %}
+    <div class="wrapper">
+        <div class="section">
+            <div class="container">
+                <div class="button-container">
+                    <a href="#button" class="btn btn-primary btn-round btn-lg">Siga</a>
+                    <a href="https://twitter.com/lucianobragaweb" class="btn btn-default btn-round btn-lg btn-icon" rel="tooltip" title="Siga no Twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#button" class="btn btn-default btn-round btn-lg btn-icon" rel="tooltip" title="Follow me on Instagram">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+                {{ content }}
+                
+                {% include portfolio.html %}
+            </div>
+        </div>
+        {% include footer.html %}
+    </div>
+</body>
+    {% include footer_scripts.html %}
+</html>
