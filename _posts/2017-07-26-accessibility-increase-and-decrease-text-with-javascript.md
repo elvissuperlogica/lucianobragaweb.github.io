@@ -25,7 +25,7 @@ We started creating simple buttons with a onClick() function which will increase
 
 Let’s go now create the font.js file, that should contain the function which will make all the magic to happen on our site.
 
-https://gist.githubusercontent.com/lucianobragaweb/bf28ddd26b922e6d30e37ccbc62d9b5c
+<script src="https://gist.github.com/lucianobragaweb/bf28ddd26b922e6d30e37ccbc62d9b5c.js"></script>
 
 Now just add the class .acessibility to the elements that should be affected by the function.
 
