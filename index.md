@@ -7,8 +7,8 @@ title: Programador Web Luciano Braga
 menu: false
 ---
 
-<h3 class="title">Programador Web</h3>
-<h5 class="description">Em minha vida tento criar coisas novas, apostar em projetos pessoais e no futuro.</h5>
+<h3 class="title">Web Developer</h3>
+<h5 class="description">In my life I try to create new things, to bet on personal projects and in the future.</h5>
 
 <h3>Posts</h3>
 <ul>
