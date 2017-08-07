@@ -15,3 +15,6 @@ Stats by: https://github.com/alexzaworski/PageSpeed-Badges
 
 ## Credits and References
 Now Ui Kit by @creativetimofficial https://github.com/creativetimofficial/now-ui-kit
+
+## License
+[MIT](https://raw.githubusercontent.com/lucianobragaweb/lucianobragaweb.github.io/master/LICENSE) &copy; [Luciano Braga](http://lucianobragaweb.com)
