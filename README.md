@@ -1,5 +1,5 @@
 # lucianobragaweb.github.io
-Meu Blog Pessoal desenvolvido em Jekyll e hospedado através do GitHub Pages.
+My Personal Blog developed in Jekyll and hosted through GitHub Pages.
 
 ### Google Page Speed Stats
 Stats by 
