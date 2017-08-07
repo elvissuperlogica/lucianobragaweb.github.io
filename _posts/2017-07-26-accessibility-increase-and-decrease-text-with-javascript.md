@@ -1,6 +1,6 @@
 ---
 layout: now/index
-title:  "Teste!"
+title:  "Accessibility — Increase and decrease text with JavaScript"
 date:   2017-08-06 11:01:11 -0300
 categories: jekyll update
 ---
