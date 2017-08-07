@@ -1,4 +1,4 @@
-# lucianobragaweb.github.io [![license][license-badge]][LICENSE]
+# lucianobragaweb.github.io [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 My Personal Blog developed in Jekyll and hosted through GitHub Pages.
 
 ### Google Page Speed Stats
