@@ -16,3 +16,6 @@ CACHE:
 
 # Imagens
 /assets/img/programador-luciano-braga.jpg
+
+NETWORK:
+*
