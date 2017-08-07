@@ -1,6 +1,4 @@
-# lucianobragaweb.github.io [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/lucianobragaweb/lucianobragaweb.github.io/issues) [![](https://img.shields.io/github/issues-pr-raw/cdnjs/cdnjs.svg)](https://github.com/lucianobragaweb/lucianobragaweb.github.io/pulls)
-
-[![lucianobragaweb.github.io](https://img.shields.io/codeclimate/issues/github/me-and/mdf.svg)](https://github.com/lucianobragaweb/lucianobragaweb.github.io/issues)
+# lucianobragaweb.github.io [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/lucianobragaweb/lucianobragaweb.github.io/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/lucianobragaweb/lucianobragaweb.github.io.svg)](https://github.com/lucianobragaweb/lucianobragaweb.github.io/issues) [![GitHub pulls](https://img.shields.io/github/pulls/lucianobragaweb/lucianobragaweb.github.io.svg)](https://github.com/lucianobragaweb/lucianobragaweb.github.io/pulls)
 
 My Personal Blog developed in Jekyll and hosted through GitHub Pages.
 
